@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2>Your Library</h2>
+    </header>
+    <main>
+        <div class="btn_new_book"><button>Add new book</button></div>
+        <div class="read">I've already read</div>
+        <div class="read_table">
+            <div>No.</div>
+            <div>Title</div>
+            <div>Author</div>
+            <div>Date</div>
+            <div>Rating</div>
+            <div>Delate</div>
+        </div>
+    </main>
+    <form>
+        <section>
+            <h2>Add new book to your library</h2>
+            <label for="title">Title of book</label>
+            <input type="text" id="title" />
+        </section>
+        <section>
+            <label for="author">Author of book</label>
+            <input type="text" id="author" />
+        </section>
+        <section>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+        </section>
+        <button class="btn_add">Add</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
