@@ -70,11 +70,35 @@ form {
     display: block;
 }
 
+.fa-times {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    cursor: pointer;
+}
+
 section {
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
 
+input {
+    border: 2px solid rgb(209, 210, 212);
+    border-radius: 5px;
+    height: 24px;
+    outline-style: none;
+    background-color: rgb(209, 210, 212);
+    padding-left: 10px;
+}
+
+input:focus {
+    background-color: #fff;
+}
+
 h2 {
     padding-bottom: 5vh;
+}
+
+.activeStar {
+    background-color: purple;
 }
