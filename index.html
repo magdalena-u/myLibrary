@@ -24,7 +24,7 @@
                 <div>Title</div>
                 <div>Author</div>
                 <div>Date</div>
-                <div>Rating</div>
+                <div>Read/ Unread</div>
                 <div>Delate</div>
             </div>
         </div>
@@ -41,12 +41,20 @@
             <input type="text" id="author" />
         </section>
         <section>
-            <i class="far fa-star star1"></i>
-            <i class="far fa-star star2"></i>
-            <i class="far fa-star star3"></i>
-            <i class="far fa-star star4"></i>
-            <i class="far fa-star star5"></i>
+            <label for="status">Status</label>
+            <select id="status">
+                <option value="0"></option>
+                <option value="1">Read already</option>
+                <option value="2">Not read yet</option>
+            </select>
         </section>
+        <!-- <section>
+            <i class="far fa-star" id="1"></i>
+            <i class="far fa-star" id="2"></i>
+            <i class="far fa-star" id="3"></i>
+            <i class="far fa-star" id="4"></i>
+            <i class="far fa-star" id="5"></i>
+        </section> -->
         <button class="btn_add">Add</button>
     </form>
     <script src="script.js"></script>

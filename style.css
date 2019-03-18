@@ -70,6 +70,7 @@ form {
 
 .form_active {
     display: block;
+
 }
 
 .fa-times {
@@ -84,7 +85,8 @@ section {
     padding-bottom: 2vh;
 }
 
-input {
+input,
+select {
     border: 2px solid rgb(209, 210, 212);
     border-radius: 5px;
     height: 24px;
@@ -93,13 +95,26 @@ input {
     padding-left: 10px;
 }
 
-.bin {
-    background-image: url('trash-solid.svg');
+.bin,
+.status_checked,
+.status_times {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.3;
     cursor: pointer;
+}
+
+.bin {
+    background-image: url('img/trash-solid.svg');
+    opacity: 0.3;
+}
+
+.status_checked {
+    background-image: url(img/check-circle-solid2.svg);
+}
+
+.status_times {
+    background-image: url(img/times-circle-solid2.svg);
 }
 
 input:focus {
@@ -109,6 +124,7 @@ input:focus {
 h2 {
     padding-bottom: 5vh;
 }
+
 
 .activeStar {
     background-color: purple;
